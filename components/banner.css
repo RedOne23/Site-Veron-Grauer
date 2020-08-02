@@ -1,0 +1,74 @@
+/*------- MENU -------*/
+.banner-menu{
+  padding: 10px;
+  height:50px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(253, 251, 251, 0);
+}
+
+.list-inline{
+  display: flex;
+  list-style: none;
+  margin-left: none;
+}
+
+.list-inline li {
+  margin: 20px;
+}
+
+.list-inline li a{
+  text-decoration: none;
+  color: #E32213;
+}
+.list-inline li a:hover{
+  border-bottom: 3px solid #6b6b6a;
+  transition: 0.2s;
+}
+
+.logo-vg{
+  height: 60px;
+  width: 90px;
+}
+
+.flags img{
+  height: 25px;
+  margin: 3px;
+}
+
+/*------- BANNIERE -------*/
+.banner{
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('../images/Banière_VG.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text{
+  max-width: 700px;
+}
+
+.banner-text p {
+  padding-bottom: 35px;
+}
+
+.btn-white{
+  background-color: white;
+  color: #E32213;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.btn-white:hover{
+  background-color: rgb(202, 202, 202);
+  color: #E32213;
+  transition: 0.1s;
+}

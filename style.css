@@ -1,0 +1,23 @@
+
+@import url("components/banner.css");
+@import url("components/presentation.css");
+@import url("components/news.css");
+@import url("components/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+body {
+  margin : 0;
+  padding : 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size : 38px;
+  margin-bottom: 0;
+}
+
+.h1-red-underline {
+  height: 8px;
+  width: 500px;
+  background-color: #E32213;
+  margin-left: 80px;
+}

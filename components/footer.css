@@ -1,0 +1,29 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color:#E32415;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li > a {
+  list-style: none;
+}
+
+.fab {
+  font-size: 35px;
+}
+
+.mentions-legales a {
+  text-decoration: none;
+  color: #E32415;
+}
+
+.mentions-legales a:hover {
+  border-bottom: 3px solid #6b6b6a;
+  transition: 0.2s;
+}
